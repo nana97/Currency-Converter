@@ -1,2 +1,2 @@
 # Currency-Converter
-This repository includes various versions of Object Oriented Currency Converter applications that allow the user to convert from one Currency to another. 
+This repository includes different versions of a Java Currency Converter application that allows the user to convert from one currency to another. 
