@@ -16,7 +16,7 @@ The First Version uses a HashMap:
  
 This version uses maps the Currency keys to Exchange Rate values. So the Application only allows the User to access modifications to the original data in the same session.
 
-	To use this Application run the files Application1 along with the object  CurrencyConverterUsingHashMap and XML..
+	To use this Application run the files Application1 along with the object CurrencyConverterUsingHashMap and XML..
 
 
 
