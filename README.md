@@ -12,17 +12,17 @@ Both versions allow the user to:
 	
 These applications are centered around a Console Menu.
 
+
 The First Version uses a HashMap: 
  
-This version uses maps the Currency keys to Exchange Rate values. So the Application only allows the User to access modifications to the original data in the same session.
+This version only allows the User to access modifications to the original data in the same session.
 
 	To use this Application run the files Application1 along with the object CurrencyConverterUsingHashMap.
 
 
-
 The Second Version uses an XML file:
 
-It allows the User to perform all of the aforementioned operations, with the added option of Resetting the Database.
+This version allows the User to perform all of the aforementioned operations, with the added option of Resetting the Database.
 By using an XML file to save a Currency Database, this application allows the user to freely add and modify currencies between sessions. 
 
 	To use this xml version, please change the "xmlFilePath" variable in the XML object to one on your machine. To run this Application run the files Application2 along with the objects CurrencyConverterUsingHashMap and XML.
