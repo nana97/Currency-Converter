@@ -1,9 +1,7 @@
 # Currency-Converter
 This repository includes different versions of a Java Currency Converter Application that allows a user to convert from one currency to another. 
 
-The First Version uses a HashMap: 
-
-It allows the User to:
+Both versions allow the user to:
 
 	Add a Currency to the Database
 	Modify the Exchange Rate of an Existing Currency
@@ -11,15 +9,22 @@ It allows the User to:
 	Perform a Conversion
 	Display the Database
 	Exit the Application at any time
-  
-The application starts with a Console Menu that responds to the user input requests. It gives the user the 6 aforementioned options.
+	
+These applications are centered around a Console Menu.
+
+The First Version uses a HashMap: 
+ 
+This version uses a HashMap to map the Currency keys to Exchange Rate values. So the Application only allows the User to access modifications to the original data in the same session.
+
 To use this Application run the files ApplicationP2 along with the object  CurrencyConverterUsingHashMap and XML..
+
 
 
 The Second Version uses an XML file:
 
-It allows the User to perform all of the operations in the previous version, with the added option of Resetting the Database.
+It allows the User to perform all of the aforementioned operations, with the added option of Resetting the Database.
+By using an XML file to save a Currency Database, this application allows the user to freely add and modify currencies between sessions. 
 
-By using an XML file to save a Currency Database, this application allows the user to freely add and modify currencies between sessions. To use this xml version, please change the xmlFilePath variable in the XML object to one on your machine. To run this Application run the files ApplicationP3 along with the objects CurrencyConverterUsingHashMap and XML.
+To use this xml version, please change the xmlFilePath variable in the XML object to one on your machine. To run this Application run the files ApplicationP3 along with the objects CurrencyConverterUsingHashMap and XML.
 
 
