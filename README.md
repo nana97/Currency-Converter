@@ -10,7 +10,6 @@ It allows the User to:
 	Delete a Currency from the Database
 	Perform a Conversion
 	Display the Database
-  Reset the Database
 	Exit the Application at any time
   
 The application starts with a Console Menu that responds to the user input requests. It gives the user the 6 aforementioned options.
