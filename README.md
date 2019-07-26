@@ -26,6 +26,6 @@ This version allows the User to perform all of the aforementioned operations, wi
 By using an XML file to save a Currency Database, this application allows the user to freely add and modify currencies between sessions. 
 
 	To use this xml version, please change the "xmlFilePath" variable in the XML object to one on your machine. 
-	To run this Application run the files Application2 along with the objects CurrencyConverterUsingHashMap and XML.
+	To run this Application run the files Application2 along with the objects CurrencyConverterUsingXML and XML.
 
 
