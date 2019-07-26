@@ -20,7 +20,7 @@ import javax.swing.JTextArea;
 import java.awt.Component;
 import java.math.*;
 
-public class ApplicationP5 {
+public class Application3 {
 
 	private JFrame currencyConverterFrame;
 	private JTextField textFieldCurrency;
