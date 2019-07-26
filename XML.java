@@ -17,7 +17,7 @@ import org.w3c.dom.NodeList;
 public class XML{
 	
 	/**To successfully use this application: Please change the XML file directory to one on your machine. */
-	public static final String xmlFilePath = "C:\\Users\\naija.andry\\OneDrive\\~~Work~~\\Currency Converter\\src\\CurrencyDatabase.xml";
+	public static final String xmlFilePath = "path";
 	
 	public XML(){		
 	}
