@@ -2,7 +2,7 @@ import java.util.*;
 import java.math.*;
 
 
-public class ApplicationP2{
+public class Application2{
 
 	public static BigDecimal conversionAmount = BigDecimal.ZERO;
 	public static final BigDecimal zero = new BigDecimal("0");
