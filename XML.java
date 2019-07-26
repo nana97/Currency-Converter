@@ -19,8 +19,7 @@ public class XML{
 	/**To successfully use this application: Please change the XML file directory to one on your machine. */
 	public static final String xmlFilePath = "C:\\Users\\naija.andry\\OneDrive\\~~Work~~\\Currency Converter\\src\\CurrencyDatabase.xml";
 	
-	public XML(){	
-		
+	public XML(){		
 	}
 	
 	public void initializeFile() {
@@ -65,7 +64,8 @@ public class XML{
     	return node;
     }    
     
-	public void printFile() {	
+	public String toString() {	
+		String output = "";
 		try {
 			File xmlfile = new File(xmlFilePath);
 			DocumentBuilderFactory dBF = DocumentBuilderFactory.newInstance();
@@ -74,6 +74,7 @@ public class XML{
 	
 			NodeList list = doc.getElementsByTagName("Currency");
 			
+			
 			for(int i = 0; i <list.getLength(); i++) {
 				
 				Node node =  (Node) list.item(i);
@@ -81,7 +82,7 @@ public class XML{
 				if(node.getNodeType() == Node.ELEMENT_NODE) {
 					
 					Element element = (Element) node;
-					System.out.println("Currency Name: " + element.getElementsByTagName("name").item(0).getTextContent()+ " Currency Rate: " + element.getElementsByTagName("rate").item(0).getTextContent()+ "\n");
+					output += "Name: " + element.getElementsByTagName("name").item(0).getTextContent()+ "\tRate: " + element.getElementsByTagName("rate").item(0).getTextContent()+ "\n";
 				}
 			}
 			
@@ -89,8 +90,8 @@ public class XML{
 			System.out.println("Sorry, the system has encountered an unexpected error at PrintFile.");
 			System.exit(0);
 		}
+	return output;
 	}
-	
 	
 	public void addEntry(String currency, String rate) {	
 		try {
